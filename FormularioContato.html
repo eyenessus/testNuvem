@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entra em contato</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+    
+</head>
+<header>
+    <div id="logo">
+    <a href="/Paginas/Index.html"><img src="/Imagens/Logo_Oficial_Emerson-removebg-preview (1).png" alt="logocentral" id='logo'></a>
+    </div>
+    <div id='navegacao'>
+        <nav id='navegacaoa'>
+            <a href="/Paginas/Index.html" id='navegacaoa'>Início</a>
+            <a href="/Paginas/Login.html" id='navegacaoa'>Login</a>
+            <a href="/Paginas/Cadastro.html"id='navegacaoa'>Cadastra-se</a>
+            <a href="/Paginas/Recuperacao.html" id='navegacaoa'>Recuperar</a>
+            <a href="/Paginas/FormularioContato.html" id='navegacaoa'>Contato</a>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <main>
+        grew    
+    </main>
+        <h1  id="tituloContato">Entre em contato conosco</h1>
+       <aside>
+           hello
+       </aside>
+
+    <div id="formularioContato">
+        
+        <form action="/Paginas/Index.html" Method="POST">
+
+            <label for="usuario">Usuário</label>
+            <br>
+            <input type="password" id="usuario" required name="usuario" value="0000000">
+            <br> </br>
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" id="nome" required name="nome" minlength="3" maxlength="15">
+            <br> </br>
+
+            <label for="dataNascimento">Data Nascimento</label><br>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+            <br> </br>
+            
+            <label for="setor">Qual setor</label>
+            <br>
+
+            <select id="setor" name="setor">
+            <option value="Administrativo">Administrativo</option>
+            <option value="Financeiro">Financeiro</option>
+            <option value="Dúvidas">Dúvidas</option>
+            <option value="Ausuario">Alteração de Usuário</option>
+
+            </select>
+            <br></br>
+            <label for="telefone">Numero de telefone</label>
+            <br>
+            <input type="number" name="telefone" id="telefone" pattern="[0-9]{11,12}"> <!-- patern verifica se ha numeros de 0 a 9 e se tem no minimo 11 ou maximo 12 para poder enviar  -->
+            <br></br>
+
+            <label for="questionario">Qual nível de expêriencia este formulário de contato?</label>
+            <br>
+            <input id="questionario" name="questionario" type="range" min="0" max="1000" step="1">
+            <br></br>
+
+
+            <label for="textoarea">Sua Mensagem:</label>
+            <br>
+            <textarea name="textoarea" id="textoarea" cols="40" rows="10"></textarea>
+            <br></br>
+            <input type="submit" value="Enviar Mensagem" id="enviarContato">
+
+        </form>
+    </div>
+    <footer id="footer">Nós transformamos a tecnolgia 2021</footer>    
+</body>
+<script src="/JavaScript/Hello.js" ></script>
+</html>

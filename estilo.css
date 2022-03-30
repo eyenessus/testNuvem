@@ -1,0 +1,181 @@
+
+/* aqui e o novo css mais estruturado*/
+@font-face {
+    font-family: 'emerson';
+    src: url('');
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(70, 191, 235) , #fffffff6);
+    font-size:16px;
+    background-repeat: no-repeat;
+    font-family: 'emerson';
+    
+}
+#logo{
+    height: 120px;
+    width: 200px;
+    border: radius 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom:10px;
+    position: relative;
+    bottom: 5px;
+}
+#navegacao{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(169, 219, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #4e98ff;
+    
+    width: 75%;
+    height: 5%;
+    padding: 5px;
+    margin: 0 auto;
+    margin-left: 12%;
+    margin-right: 10%0;
+    margin-top:1px;
+    letter-spacing:1px;
+    position:relative;
+    text-decoration: none;
+}
+#main{
+    color: white;
+    background-color:rgb(102, 177, 223);
+    height:100px;
+    width:175px;
+    margin:0;
+    margin-top:10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border:#207dff;
+    position:relative;
+}
+#nomecategoria{
+    position:relative;
+    top:5px;
+    left:8px;
+}
+
+#navegacaoa{
+    color:white;
+    border: 3px solid #fafafa transparent;
+    background-color: rgb(169, 219, 255);
+    padding: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+
+#tituloContato,#formularioContato{
+    text-align: center;
+    color: white;
+    border: 3px;
+    font-weight: bold;
+   
+}
+
+
+#formularioContato{
+    text-align: center;
+    color: white;
+    border: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+   border: 3px solid white;
+   width: 40%;
+   height: 50%;
+   margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color:rgb(30, 181, 204);
+   position:relative;
+   border-radius: 2%;
+   box-shadow: 2px 2px rgb(194, 214, 214);
+   border-radius: 10px 20px;
+}
+#usuario,#nome,#dataNascimento,#setor,#telefone,#questionario{
+    border-radius: 15px;
+    font-size:18px;
+    padding-top: 1px;
+    color:rgb(9, 26, 133);
+    width:50%;
+    height:30px;
+    text-align: center;
+    
+}
+#LoginUserEntrar,#enviarContato,#EmailRecupera{
+    border-radius: 15px;
+    font-size:19px;
+    padding-top: 1px;
+    color:rgb(9, 26, 133);
+    width:50%;
+    height:30px;
+    font-weight: bold;
+    color:rgb(17, 83, 123);
+}
+#LoginUserEntrar:hover,#enviarContato:hover{
+    color: rgb(0, 255, 0);}
+
+#LoginUser{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    border: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+   border: 3px solid white;
+   width: 450px;
+   height: 300px;
+   margin: 0 auto;
+   padding-top:100px;
+   background-color:rgb(30, 181, 204);
+   position:relative;
+   border-radius: 2%;
+   box-shadow: 2px 2px rgb(194, 214, 214);
+   border-radius: 10px 20px;
+   margin-top: 55px;
+   padding-top: 18px;
+   margin-bottom:10px;
+}
+#logoLogin{
+    width:160px;
+    height:105px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    bottom:26px;
+    top:0px;
+}
+
+#formularioderecuperacao{
+    width:160px;
+    height:105px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    bottom:26px;
+    top:0px;
+    text-align: center;
+    color: white;
+    border: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+   border: 3px solid white;
+   width: 40%;
+   height: 50%;
+   margin: 0 auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color:rgb(30, 181, 204);
+   position:relative;
+   border-radius: 2%;
+   box-shadow: 2px 2px rgb(194, 214, 214);
+   border-radius: 10px 20px;
+}
+
